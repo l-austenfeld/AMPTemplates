@@ -60,6 +60,20 @@
         "EnumValues":{}
     },
     {
+        "DisplayName":"Session Name",
+        "Category":"Icarus:stadia_controller",
+        "Subcategory":"Server:dns:1",
+        "Description":"",
+        "Keywords":"",
+        "FieldName":"SessionName",
+        "InputType":"text",
+        "Hidden":true,
+        "IsFlagArgument":false,
+        "ParamFieldName":"/Script/Icarus.DedicatedServerSettings.SessionName",
+        "IncludeInCommandLine":false,
+        "EnumValues":{}
+    },
+    {
         "DisplayName":"Multi Home IP",
         "Category":"Icarus:stadia_controller",
         "Subcategory":"Server:dns:1",
@@ -75,16 +89,16 @@
         "EnumValues":{}
     },
     {
-        "DisplayName":"Session Name",
+        "DisplayName":"Multi Home IP",
         "Category":"Icarus:stadia_controller",
         "Subcategory":"Server:dns:1",
         "Description":"",
         "Keywords":"",
-        "FieldName":"SessionName",
+        "FieldName":"MultiHomeIP",
         "InputType":"text",
         "Hidden":true,
         "IsFlagArgument":false,
-        "ParamFieldName":"/Script/Icarus.DedicatedServerSettings.SessionName",
+        "ParamFieldName":"/Script/Icarus.DedicatedServerSettings.MultiHomeIP",
         "IncludeInCommandLine":false,
         "EnumValues":{}
     },
